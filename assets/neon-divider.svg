@@ -1,20 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 30" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 32" width="100%" height="100%">
   <defs>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="hudLaserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f3ff" stop-opacity="0" />
-      <stop offset="15%" stop-color="#00f3ff" stop-opacity="1" />
-      <stop offset="50%" stop-color="#bd00ff" stop-opacity="1" />
-      <stop offset="85%" stop-color="#00ff9d" stop-opacity="1" />
-      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0" />
+      <stop offset="20%" stop-color="#00f3ff" stop-opacity="1" />
+      <stop offset="50%" stop-color="#8000ff" stop-opacity="1" />
+      <stop offset="80%" stop-color="#ff007f" stop-opacity="1" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0" />
     </linearGradient>
-    <filter id="neonGlow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    <filter id="hudGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
-  <!-- Main glowing line -->
-  <line x1="50" y1="15" x2="800" y2="15" stroke="url(#lineGrad)" stroke-width="2" filter="url(#neonGlow)" />
-  <!-- Central Diamond Node -->
-  <polygon points="425,7 433,15 425,23 417,15" fill="#0d1117" stroke="#00f3ff" stroke-width="2" filter="url(#neonGlow)" />
-  <circle cx="425" cy="15" r="3" fill="#bd00ff" />
+  <!-- Laser Beam Line -->
+  <line x1="40" y1="16" x2="860" y2="16" stroke="url(#hudLaserGrad)" stroke-width="2" filter="url(#hudGlow)" />
+  
+  <!-- Central Cyber Marker -->
+  <rect x="430" y="8" width="40" height="16" rx="4" fill="#060913" stroke="#00f3ff" stroke-width="1.5" filter="url(#hudGlow)" />
+  <circle cx="450" cy="16" r="4" fill="#ff007f" filter="url(#hudGlow)" />
+  
+  <!-- Outer Node Flank Marks -->
+  <polygon points="200,12 208,16 200,20" fill="#00f3ff" />
+  <polygon points="700,12 692,16 700,20" fill="#ff007f" />
 </svg>

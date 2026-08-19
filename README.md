@@ -249,17 +249,17 @@
 <table border="0">
   <tr>
     <td>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=disha-bodar&show_icons=true&theme=dark&bg_color=0d1117&title_color=00f3ff&text_color=c9d1d9&icon_color=bd00ff&border_color=00f3ff&hide_border=false" alt="Disha Bodar's GitHub Stats" />
+      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Disha144&show_icons=true&theme=dark&bg_color=0d1117&title_color=00f3ff&text_color=c9d1d9&icon_color=bd00ff&border_color=00f3ff&hide_border=false" alt="Disha Bodar's GitHub Stats" />
     </td>
     <td>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=disha-bodar&layout=compact&theme=dark&bg_color=0d1117&title_color=00f3ff&text_color=c9d1d9&border_color=bd00ff&hide_border=false" alt="Top Languages" />
+      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Disha144&layout=compact&theme=dark&bg_color=0d1117&title_color=00f3ff&text_color=c9d1d9&border_color=bd00ff&hide_border=false" alt="Top Languages" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=disha-bodar&theme=dark&background=0d1117&stroke=00f3ff&alarm=bd00ff&ring=00f3ff&fire=00ff9d&currStreakLabel=00f3ff" alt="GitHub Streak Stats" width="85%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Disha144&theme=dark&background=0d1117&stroke=00f3ff&alarm=bd00ff&ring=00f3ff&fire=00ff9d&currStreakLabel=00f3ff" alt="GitHub Streak Stats" width="85%" />
 
 </div>
 
@@ -276,7 +276,7 @@
 ```
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=disha-bodar&theme=react-dark&bg_color=0d1117&color=00f3ff&line=bd00ff&point=00ff9d&area=true&hide_border=false" width="95%" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Disha144&theme=react-dark&bg_color=0d1117&color=00f3ff&line=bd00ff&point=00ff9d&area=true&hide_border=false" width="95%" alt="Contribution Graph" />
 </div>
 
 <br/>
@@ -339,13 +339,13 @@
 
 | Platform | Channel | Link |
 | :--- | :--- | :--- |
-| **GitHub** | `@disha-bodar` | [github.com/disha-bodar](https://github.com/disha-bodar) |
-| **LinkedIn** | `Disha Bodar` | [linkedin.com/in/disha-bodar](https://linkedin.com) |
+| **GitHub** | `@Disha144` | [github.com/Disha144](https://github.com/Disha144) |
+| **LinkedIn** | `Disha Bodar` | [linkedin.com/in/Disha144](https://linkedin.com) |
 | **Email** | `bodarda06@gmail.com` | [bodarda06@gmail.com](mailto:bodarda06@gmail.com) |
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/disha-bodar)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Disha144)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bodarda06@gmail.com)
 

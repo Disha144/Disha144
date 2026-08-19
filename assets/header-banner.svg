@@ -58,7 +58,7 @@
   
   <!-- Subtitle Tagline -->
   <text x="52" y="138" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#a5d6ff" letter-spacing="1">
-    AI / ML Engineer • Software Developer • CSE Student
+    AI / ML Engineer • Software Developer • IT Student
   </text>
   
   <!-- Terminal Prompt line -->
@@ -69,7 +69,7 @@
   <!-- Badges Grid at Bottom Right -->
   <g transform="translate(52, 192)">
     <rect width="130" height="26" rx="6" fill="#161b22" stroke="#00f3ff" stroke-width="1" />
-    <text x="65" y="17" font-family="sans-serif" font-size="11" fill="#00f3ff" text-anchor="middle" font-weight="bold">⚡ B.Tech CSE</text>
+    <text x="65" y="17" font-family="sans-serif" font-size="11" fill="#00f3ff" text-anchor="middle" font-weight="bold">⚡ B.Tech IT</text>
   </g>
 
   <g transform="translate(192, 192)">

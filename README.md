@@ -5,7 +5,7 @@
 
 <br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00F3FF&center=true&vCenter=true&width=600&height=40&lines=Aspiring+AI%2FML+Engineer;Full-Stack+Software+Developer;B.Tech+Computer+Science+Student;Building+Intelligent+Software+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00F3FF&center=true&vCenter=true&width=600&height=40&lines=Aspiring+AI%2FML+Engineer;Full-Stack+Software+Developer;B.Tech+Information+Technology+Student;Building+Intelligent+Software+Systems)](https://git.io/typing-svg)
 
 </div>
 
@@ -21,7 +21,7 @@
 |   [SYSTEM PROFILE] :: DISHA BODAR                                                        |
 |   ====================================================================================   |
 |   • STATUS           : [ ONLINE // OPTIMAL ]                                             |
-|   • CURRENT ROLE     : B.Tech Computer Science Student | Aspiring AI/ML Engineer           |
+|   • CURRENT ROLE     : B.Tech Information Technology Student | Aspiring AI/ML Engineer     |
 |   • PRIMARY FOCUS    : Artificial Intelligence • Machine Learning • Software Engineering |
 |   • ACTIVE LEARNING  : Advanced NLP • Computer Vision (YOLOv8) • Deep Learning           |
 |   • COLLABORATION    : Open to AI/ML & Software Development Internships                  |
@@ -36,7 +36,7 @@
       <h3>⚡ Developer Profile</h3>
       <ul>
         <li><b>Name:</b> Disha Bodar</li>
-        <li><b>Degree:</b> B.Tech in Computer Science & Engineering</li>
+        <li><b>Degree:</b> B.Tech in Information Technology</li>
         <li><b>Core Interests:</b> AI/ML, Data Structures, Web Systems, Databases</li>
         <li><b>Location:</b> Available for Remote & On-site Internships</li>
       </ul>

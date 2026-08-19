@@ -1,101 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
   <defs>
-    <!-- Deep Glassmorphism Gradient Background -->
-    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060913" />
-      <stop offset="40%" stop-color="#0a101f" />
-      <stop offset="100%" stop-color="#04070e" />
+    <!-- Premium Dark Navy Background -->
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="60%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#0b132b" />
     </linearGradient>
 
-    <!-- Electric Cyber Gradient -->
-    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f3ff" />
-      <stop offset="45%" stop-color="#8000ff" />
-      <stop offset="90%" stop-color="#ff007f" />
+    <!-- Elegant Soft Pastel Cyan-Purple Gradient -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00ff9d" />
-      <stop offset="100%" stop-color="#00f3ff" />
+    <!-- Border Accent Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <!-- Subtle HUD Grid Pattern -->
-    <pattern id="hudGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f3ff" stroke-width="0.6" stroke-opacity="0.08" />
-      <circle cx="40" cy="40" r="1.5" fill="#8000ff" fill-opacity="0.3" />
-    </pattern>
-
-    <!-- Glow Effect -->
-    <filter id="cyberGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <!-- Subtle Soft Glow -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#38bdf8" flood-opacity="0.3" />
     </filter>
+
+    <!-- Soft Geometric Grid -->
+    <pattern id="softGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.08" />
+    </pattern>
   </defs>
 
-  <!-- Base Card Frame -->
-  <rect width="900" height="260" rx="16" fill="url(#hudBg)" stroke="url(#neonGradient)" stroke-width="1.8" />
-  <rect width="900" height="260" rx="16" fill="url(#hudGrid)" />
+  <!-- Background Base -->
+  <rect width="900" height="240" rx="16" fill="url(#bannerBg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect width="900" height="240" rx="16" fill="url(#softGrid)" />
 
-  <!-- Top Glass HUD Header Bar -->
-  <rect x="0" y="0" width="900" height="40" rx="16" fill="#0e172a" fill-opacity="0.6" />
-  <rect x="0" y="38" width="900" height="2" fill="url(#neonGradient)" opacity="0.8" />
+  <!-- Elegant Top Header Bar -->
+  <rect x="0" y="0" width="900" height="38" rx="16" fill="#091124" fill-opacity="0.7" />
+  <rect x="0" y="37" width="900" height="1" fill="url(#borderGrad)" opacity="0.4" />
 
-  <!-- Window Control Nodes -->
-  <circle cx="28" cy="20" r="5" fill="#ff5f56" />
-  <circle cx="46" cy="20" r="5" fill="#ffbd2e" />
-  <circle cx="64" cy="20" r="5" fill="#27c93f" />
+  <!-- Smooth Window Dots -->
+  <circle cx="28" cy="19" r="4.5" fill="#f87171" />
+  <circle cx="44" cy="19" r="4.5" fill="#fbbf24" />
+  <circle cx="60" cy="19" r="4.5" fill="#4ade80" />
 
-  <text x="90" y="24" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#00f3ff" letter-spacing="2" font-weight="bold">DISHA_BODAR // AI_NEXUS_OS v3.0</text>
-  <text x="740" y="24" font-family="'Fira Code', monospace" font-size="11" fill="#00ff9d" letter-spacing="1">● CORE_ONLINE</text>
+  <text x="85" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#38bdf8" letter-spacing="1.5" font-weight="600">DISHA BODAR // PORTFOLIO CONSOLE</text>
+  <text x="740" y="23" font-family="monospace" font-size="11" fill="#4ade80" letter-spacing="1">● STATUS: ACTIVE</text>
 
-  <!-- Futuristic Right-Side HUD Radar Graphics -->
-  <g transform="translate(750, 150)">
-    <!-- Concentric Target Circles -->
-    <circle cx="0" cy="0" r="75" fill="none" stroke="#00f3ff" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="4 4" />
-    <circle cx="0" cy="0" r="55" fill="none" stroke="#8000ff" stroke-width="1.2" stroke-opacity="0.3" />
-    <circle cx="0" cy="0" r="35" fill="none" stroke="#ff007f" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="8 4" />
-    <circle cx="0" cy="0" r="8" fill="url(#neonGradient)" filter="url(#cyberGlow)" />
-    
-    <!-- Crosshair Lines -->
-    <line x1="-85" y1="0" x2="85" y2="0" stroke="#00f3ff" stroke-width="0.8" stroke-opacity="0.2" />
-    <line x1="0" y1="-85" x2="0" y2="85" stroke="#00f3ff" stroke-width="0.8" stroke-opacity="0.2" />
+  <!-- Decorative Soft Tech Circles on Right -->
+  <g transform="translate(760, 140)">
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.2" stroke-dasharray="6 4" />
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#c084fc" stroke-width="1" stroke-opacity="0.25" />
+    <circle cx="0" cy="0" r="6" fill="#38bdf8" opacity="0.8" />
   </g>
 
-  <!-- Corner Tech Reticles -->
-  <path d="M 25 60 L 45 60 M 25 60 L 25 80" stroke="#00f3ff" stroke-width="2.5" fill="none" />
-  <path d="M 875 60 L 855 60 M 875 60 L 875 80" stroke="#ff007f" stroke-width="2.5" fill="none" />
-  <path d="M 25 240 L 45 240 M 25 240 L 25 220" stroke="#8000ff" stroke-width="2.5" fill="none" />
-  <path d="M 875 240 L 855 240 M 875 240 L 875 220" stroke="#00ff9d" stroke-width="2.5" fill="none" />
+  <!-- Main Developer Name - Elegant, Friendly & Clean -->
+  <text x="50" y="112" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="40" font-weight="700" fill="url(#titleGradient)" letter-spacing="0.5" filter="url(#softGlow)">Disha Bodar</text>
 
-  <!-- Main Hero Title -->
-  <text x="50" y="115" font-family="'Montserrat', 'Segoe UI', sans-serif" font-size="42" font-weight="900" fill="url(#neonGradient)" letter-spacing="3" filter="url(#cyberGlow)">DISHA BODAR</text>
-
-  <!-- Subtitle Tagline -->
-  <text x="52" y="152" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#e2e8f0" letter-spacing="1">
-    B.Tech Information Technology • AI/ML &amp; Full-Stack Developer
+  <!-- Subtitle Professional Tagline -->
+  <text x="52" y="148" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#cbd5e1" letter-spacing="0.5">
+    B.Tech Information Technology • Aspiring AI/ML Engineer &amp; Full-Stack Developer
   </text>
 
-  <!-- Command Line Summary -->
-  <text x="52" y="186" font-family="'Fira Code', monospace" font-size="13" fill="#00ff9d">
-    ► Architecting Intelligent Machine Learning &amp; Web Systems
+  <!-- Friendly Motto / Intro -->
+  <text x="52" y="178" font-family="'Segoe UI', sans-serif" font-size="13" fill="#38bdf8">
+    ✦ Building intelligent applications &amp; modern software solutions
   </text>
 
-  <!-- Bottom HUD Status Cards -->
-  <g transform="translate(52, 208)">
-    <rect width="145" height="28" rx="6" fill="#0e172a" stroke="#00f3ff" stroke-width="1" />
-    <text x="72" y="18" font-family="sans-serif" font-size="11" fill="#00f3ff" text-anchor="middle" font-weight="bold">💻 B.Tech IT</text>
+  <!-- Clean Bottom Status Pills -->
+  <g transform="translate(52, 198)">
+    <rect width="140" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="70" y="17" font-family="sans-serif" font-size="11" fill="#38bdf8" text-anchor="middle" font-weight="600">🎓 B.Tech IT</text>
   </g>
 
-  <g transform="translate(207, 208)">
-    <rect width="165" height="28" rx="6" fill="#0e172a" stroke="#8000ff" stroke-width="1" />
-    <text x="82" y="18" font-family="sans-serif" font-size="11" fill="#c084fc" text-anchor="middle" font-weight="bold">🧠 AI / Machine Learning</text>
+  <g transform="translate(202, 198)">
+    <rect width="160" height="26" rx="13" fill="#1e293b" stroke="#c084fc" stroke-width="1" />
+    <text x="80" y="17" font-family="sans-serif" font-size="11" fill="#c084fc" text-anchor="middle" font-weight="600">🧠 AI / Machine Learning</text>
   </g>
 
-  <g transform="translate(382, 208)">
-    <rect width="165" height="28" rx="6" fill="#0e172a" stroke="#ff007f" stroke-width="1" />
-    <text x="82" y="18" font-family="sans-serif" font-size="11" fill="#ff70a6" text-anchor="middle" font-weight="bold">⚡ Full-Stack &amp; Python</text>
+  <g transform="translate(372, 198)">
+    <rect width="160" height="26" rx="13" fill="#1e293b" stroke="#4ade80" stroke-width="1" />
+    <text x="80" y="17" font-family="sans-serif" font-size="11" fill="#4ade80" text-anchor="middle" font-weight="600">💻 Full-Stack Development</text>
   </g>
 </svg>
